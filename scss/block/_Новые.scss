@@ -1,0 +1,127 @@
+.new {
+  width: 100%;
+  height: auto;
+  margin-top: 74px;
+
+  h1 {
+    color: var(--111, #111);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .line {
+    width: 59px;
+    border: 1px solid red;
+  }
+  .baner2 {
+    margin-top: 33px;
+    margin-bottom: 0;
+    // border: 1px solid #000;
+
+    .owl-prev {
+      margin-left: -60px !important;
+    }
+
+    .owl-next {
+      margin-right: -60px !important;
+    }
+
+    .owl-prev,
+    .owl-next {
+      width: 42px;
+      height: 42px;
+      border-radius: 50% !important;
+      border: 1px solid #c4c4c4 !important ;
+    }
+
+    .owl-nav {
+      height: 472px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .reklama {
+      height: 482px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #fff;
+
+      .img {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        .img2 {
+          background-color: #eedbbb;
+        }
+
+        h4 {
+          position: absolute;
+          bottom: 90px;
+          left: 8px;
+          padding: 4px 10px;
+          border-radius: 2px;
+          opacity: 0.8999999761581421;
+          background: var(--ea-4953, #ea4953);
+          color: #fff;
+          text-align: center;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+        }
+        h5 {
+          position: absolute;
+          top: 9px;
+          left: 8px;
+          padding: 4px 10px;
+          color: #fff;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 2px;
+          opacity: 0.8999999761581421;
+          background: var(--333152, #333152);
+        }
+
+        img {
+          height: 85%;
+        }
+      }
+
+      .h6 {
+        left: 70px;
+      }
+      p {
+        position: absolute;
+        bottom: 25px;
+        left: 10px;
+        color: var(--44424-b, #44424b);
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+      }
+      h6 {
+        position: absolute;
+        bottom: 0;
+        left: 100px;
+        color: var(--333152, #333152);
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+      }
+    }
+  }
+}

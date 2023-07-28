@@ -1,0 +1,44 @@
+.baner{
+    width: 100%;
+    height: 540px;
+    // border: 2px solid red;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    position: relative;
+
+    .reklama{
+        height: 540px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #C4C4C4;
+    }
+
+    .owl-prev{
+        margin-left: -60px !important;
+    }
+
+    .owl-next{
+        margin-right: -60px !important;
+    }
+    
+    .owl-prev , .owl-next{
+        width: 42px;
+        height: 42px;
+        border-radius: 50% !important;
+        border: 1px solid #C4C4C4 !important ;
+    }
+
+    .owl-nav{
+        height: 540px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+}

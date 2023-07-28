@@ -1,0 +1,30 @@
+@import "./general";
+@import "./nav";
+@import "./block/БАННЕРЫ";
+@import "./block/Каталог";
+@import "./block/Наш-магазин";
+@import "./block/Новые";
+@import "./block/Топ";
+@import "./footer";
+
+.container{
+    width: 100%;
+    height: auto;
+    background: #fff;
+
+    .liner{
+        width: 100%;
+        border: 2px solid #EAEAEA;
+    }
+
+    .allWidth{
+        padding: 0px 135px;
+        // border: 1px solid #000;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+}
