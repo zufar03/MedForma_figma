@@ -1,7 +1,38 @@
 @media screen and (max-width: 1400px) {
     .katolog .top img{
-        width: 350px;
+        width: 340px;
     }
+
+    .katolog .bottom img{
+        width: 240px;
+    }
+
+    .katolog .bottom .imge2{
+        width: 240px;
+        height: 245px;
+    }
+
+    .katolog .top p{
+        width: 290px;
+    }
+
+    .contacts_shop .right img{
+        width: 670px;
+    }
+
+    .top_sale .baner2{
+        height: 550px;
+    }
+    .top_sale .baner2 .reklama{
+        height: 400px;
+    }
+
+    .top_sale .baner2 p{
+        width: 160px;
+        bottom: 0px;
+    }
+
+    
 }
 @media screen and (max-width: 1400px) {
     
