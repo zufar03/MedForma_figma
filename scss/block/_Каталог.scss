@@ -21,6 +21,15 @@
     display: flex;
     justify-content: space-between;
 
+    .box{
+      width: 370px;
+      height: auto;
+
+      img{
+        width: 100%;
+      }
+    }
+
     h6 {
       margin-top: 12px;
       color: var(--111, #111);
